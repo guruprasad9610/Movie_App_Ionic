@@ -1,0 +1,30 @@
+<ion-content>
+  <swiper-container [pagination]="true">
+    <swiper-slide>
+      <img src="../../../assets/imgs/item_1.jpg" alt="movie">
+
+      <ion-button fill="clear" expand="block">
+        Swipe Next
+        <ion-icon slot="end" name="arrow-forward"></ion-icon>
+      </ion-button>
+    </swiper-slide>
+
+    <swiper-slide>
+      <img src="../../../assets/imgs/item_2.jpg" alt="movie">
+
+      <ion-button fill="clear" expand="block">
+        Swipe Next
+        <ion-icon slot="end" name="arrow-forward"></ion-icon>
+      </ion-button>
+    </swiper-slide>
+
+    <swiper-slide>
+      <img src="../../../assets/imgs/item_3.jpg" alt="movie">
+
+      <ion-button color="primary" expand="block" (click)="start()">
+        Get Started
+      </ion-button>
+    </swiper-slide>
+
+  </swiper-container>
+</ion-content>
